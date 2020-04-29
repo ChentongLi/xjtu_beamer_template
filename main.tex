@@ -1,0 +1,79 @@
+\documentclass[compress,xcolor=table]{ctexbeamer}
+\setbeamertemplate{navigation symbols}{}
+% Packages
+%\usepackage[english]{babel}
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage{datetime}
+\usepackage{calligra}
+\usepackage{amsmath,hyperref}
+
+%\usepackage{algorithm,algpseudocode}
+%\usepackage{algorithmic}
+\usepackage{graphics,epsfig}
+\usepackage{lineno,hyperref}
+\usepackage{tabularx,array,booktabs}
+\usepackage[hang]{subfigure}						% 图形或表格并排排列
+\usepackage[subfigure]{ccaption}					% 支持双语标题
+
+% Possible options of the package (add/remove below in \usetheme call):
+%  - nosectionpages: no pages between sections
+%  - flama: use flama font, requires xelatex/lualatex + the font to compile
+%  - compressminiframes: put the heading list bullets indications pages on 1 line
+\usetheme[compressminiframes]{xjtu}
+\usepackage[ruled,vlined]{algorithm2e}
+
+% Title page
+\title{西安交通大学数学与统计学院 \newline LaTeX模板}
+\foottitle{西安交通大学数学与统计学院LaTeX模板} 
+% optional, printed at the bottom of the slides, by default same as title, can be useful to rewrite when title has a newline for example
+\subtitle{} % optional subtitle
+\date{~~\\2020年5月}
+\author{作者：CT Li}
+% \institute{西安交通大学} % Optional
+
+% Biblatex
+%\usepackage[backend=bibtex, style=authoryear, citestyle=authoryear]{biblatex}
+%\bibliography{library.bib}
+%\renewcommand*{\bibfont}{\footnotesize}
+\setbeamertemplate{headline}{}
+
+%%%%
+%% BEGIN OF SLIDES
+%%%%
+
+\begin{document}
+\fangsong
+\begin{frame}[plain]
+	\titlepage
+	\setcounter{framenumber}{0}
+\end{frame}
+
+\begin{frame}{目录}
+	\tableofcontents
+\end{frame}
+
+\section{第一节，简要内容} \subsection{}
+
+\begin{frame}{研究内容}
+
+\begin{theorem}
+$x+x=2x$
+\end{theorem}
+
+\end{frame}
+
+\section{第二节，致谢} \subsection{}
+
+
+\begin{frame}{致谢}
+
+\begin{center}
+{\Huge\calligra Thanks!}
+\end{center}
+
+\end{frame}
+
+
+\end{document}
+
